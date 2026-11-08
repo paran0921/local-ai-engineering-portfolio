@@ -23,6 +23,33 @@
 - 세 가지 기본 시나리오 결과: 통과
 - 검색 정확도 일반화, 다중 문서 처리, 권한 격리 및 운영 안정성 등은 미검증
 
+### 3. Local AI Architecture Baseline
+
+[문서 보기](docs/architecture-baseline-public-draft.md)
+
+- Windows 네이티브 개발 클라이언트와 Ollama 추론 서버의 기준 구성
+- ThinkPad에서 OMEN 서버로 수행한 원격 API 및 모델 추론 확인
+- Aider, CECLI, OpenCode 등 코딩 에이전트의 역할과 검증 범위
+- 미검증 항목과 아키텍처 변경 조건 명시
+
+### 4. 로컬 AI에서 하이브리드 AI까지
+
+[문서 보기](docs/local-ai-to-hybrid-ai-experience-revised-draft.md)
+
+- 실제 개발 환경에서 로컬 AI를 구성하고 원격 추론을 확인한 경험
+- 로컬 및 클라우드 실행 환경을 선택하기 위한 판단 기준
+- 코딩 에이전트 평가와 검증 가능한 변경 절차
+- 하이브리드 AI는 완성된 운영 구성이 아닌 향후 적용 방향으로 구분
+
+### 5. Laravel Development History
+
+[문서 보기](docs/laravel-development-history-public-draft-v7.md)
+
+- Laravel 프로젝트의 주요 Git 개발 이력
+- 관리자 권한 및 동시성 관련 구현·테스트 기록
+- SQLite 기반 개별 동시 삭제 및 전체 테스트 결과
+- 테스트 범위와 미검증 데이터베이스 환경을 명시
+
 ## 문서 작성 원칙
 
 - 확인된 사실, 관찰 결과, 계획 및 미검증 항목을 구분합니다.
