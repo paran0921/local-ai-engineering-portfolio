@@ -23,6 +23,28 @@
 - 세 가지 기본 시나리오 결과: 통과
 - 검색 정확도 일반화, 다중 문서 처리, 권한 격리 및 운영 안정성 등은 미검증
 
+### 3. Local AI Architecture Baseline
+
+[문서 보기](docs/architecture-baseline-public-draft.md)
+
+- 로컬 추론 환경과 코딩 에이전트 운영 기준
+- 원격 추론 단일 요청의 확인 범위와 한계
+- 에이전트 전체 작업 흐름과 반복 성능 등 미검증 항목 명시
+
+### 4. 로컬 AI에서 하이브리드 AI까지
+
+[문서 보기](docs/local-ai-to-hybrid-ai-experience-revised-draft.md)
+
+- 로컬 및 하이브리드 AI 환경을 선택하기 위한 기준과 평가 방향
+- 원격 추론 결과를 전체 코딩 에이전트 성과로 확대하지 않음
+- 도구 후보, 향후 계획 및 미검증 사항 구분
+
+### 5. Laravel Development History (v7)
+
+[문서 보기](docs/laravel-development-history-public-draft-v7.md)
+
+- 관리자 잠금 구현과 SQLite 기반 테스트 기록
+- 테스트 범위와 데이터베이스별 동시성 검증 한계 명시
 ## 문서 작성 원칙
 
 - 확인된 사실, 관찰 결과, 계획 및 미검증 항목을 구분합니다.
