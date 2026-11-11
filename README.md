@@ -45,6 +45,22 @@
 
 - 관리자 잠금 구현과 SQLite 기반 테스트 기록
 - 테스트 범위와 데이터베이스별 동시성 검증 한계 명시
+
+### 6. Codex, OpenCode, Ollama, and Laravel Workflow (English)
+
+[Read the case study](docs/codex-opencode-ollama-laravel-workflow-en.md)
+
+- Codex internal terminal network access and OpenCode configuration troubleshooting
+- Short inference validation through the remote Ollama Inference Server
+- Read-only Laravel 12 project inspection and explicit validation limitations
+
+### 7. Codex, OpenCode, Ollama, Laravel 워크플로 검증 (한국어)
+
+[한글 문서 보기](docs/codex-opencode-ollama-laravel-workflow-ko.md)
+
+- Codex 내부 터미널 네트워크 접근 및 OpenCode 설정 문제 해결
+- 원격 Ollama Inference Server를 통한 짧은 추론 검증
+- Laravel 12 읽기 전용 분석과 검증 범위 및 한계
 ## 문서 작성 원칙
 
 - 확인된 사실, 관찰 결과, 계획 및 미검증 항목을 구분합니다.
