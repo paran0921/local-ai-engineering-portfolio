@@ -8,7 +8,7 @@
 
 ### 1. 로컬 AI 변화 대응 전략 및 에이전트 평가 이력
 
-[문서 보기](docs/2026-10-15_local-ai-adaptation-and-agent-evaluation-public-draft.md)
+[문서 보기](https://github.com/paran0921/local-ai-engineering-portfolio/blob/main/docs/2026-10-15_local-ai-adaptation-and-agent-evaluation-public-draft.md)
 
 - Windows 네이티브 개발 환경, Ollama, Aider를 기준으로 한 기존 아키텍처 유지 전략
 - Aider, cecli, OpenCode, Jan.ai 등 코딩 에이전트의 평가 방향
@@ -17,7 +17,7 @@
 
 ### 2. Open WebUI RAG 기본 검증 결과
 
-[문서 보기](docs/2026-10-18_open-webui-rag-basic-validation-public-draft.md)
+[문서 보기](https://github.com/paran0921/local-ai-engineering-portfolio/blob/main/docs/2026-10-18_open-webui-rag-basic-validation-public-draft.md)
 
 - Open WebUI 지식 기반 첨부를 이용한 단일 문서 RAG 기초 검증
 - 세 가지 기본 시나리오 결과: 통과
@@ -25,7 +25,7 @@
 
 ### 3. Local AI Architecture Baseline
 
-[문서 보기](docs/architecture-baseline-public-draft.md)
+[문서 보기](https://github.com/paran0921/local-ai-engineering-portfolio/blob/main/docs/architecture-baseline-public-draft.md)
 
 - 로컬 추론 환경과 코딩 에이전트 운영 기준
 - 원격 추론 단일 요청의 확인 범위와 한계
@@ -33,7 +33,7 @@
 
 ### 4. 로컬 AI에서 하이브리드 AI까지
 
-[문서 보기](docs/local-ai-to-hybrid-ai-experience-revised-draft.md)
+[문서 보기](https://github.com/paran0921/local-ai-engineering-portfolio/blob/main/docs/local-ai-to-hybrid-ai-experience-revised-draft.md)
 
 - 로컬 및 하이브리드 AI 환경을 선택하기 위한 기준과 평가 방향
 - 원격 추론 결과를 전체 코딩 에이전트 성과로 확대하지 않음
@@ -41,14 +41,14 @@
 
 ### 5. Laravel Development History (v7)
 
-[문서 보기](docs/laravel-development-history-public-draft-v7.md)
+[문서 보기](https://github.com/paran0921/local-ai-engineering-portfolio/blob/main/docs/laravel-development-history-public-draft-v7.md)
 
 - 관리자 잠금 구현과 SQLite 기반 테스트 기록
 - 테스트 범위와 데이터베이스별 동시성 검증 한계 명시
 
 ### 6. Codex, OpenCode, Ollama, and Laravel Workflow (English)
 
-[Read the case study](docs/codex-opencode-ollama-laravel-workflow-en.md)
+[Read the case study](https://github.com/paran0921/local-ai-engineering-portfolio/blob/main/docs/codex-opencode-ollama-laravel-workflow-en.md)
 
 - Codex internal terminal network access and OpenCode configuration troubleshooting
 - Short inference validation through the remote Ollama Inference Server
@@ -56,11 +56,30 @@
 
 ### 7. Codex, OpenCode, Ollama, Laravel 워크플로 검증 (한국어)
 
-[한글 문서 보기](docs/codex-opencode-ollama-laravel-workflow-ko.md)
+[한글 문서 보기](https://github.com/paran0921/local-ai-engineering-portfolio/blob/main/docs/codex-opencode-ollama-laravel-workflow-ko.md)
 
 - Codex 내부 터미널 네트워크 접근 및 OpenCode 설정 문제 해결
 - 원격 Ollama Inference Server를 통한 짧은 추론 검증
 - Laravel 12 읽기 전용 분석과 검증 범위 및 한계
+
+### 8. Codex AGENTS.md Automatic Loading Verification (English)
+
+[Read the verification preview](https://github.com/paran0921/local-ai-engineering-portfolio/blob/main/docs/preview-codex-agents-md-verification-en.md)
+
+- Verification of AGENTS.md automatic loading through observed Codex session context metadata
+- Direct file reading and approved test execution confirmed in a separate Codex session
+- Verification scope, observed results, and technical limitations documented
+- Actual coding-agent compliance during code modification remains unverified
+
+### 9. Codex AGENTS.md 자동 로딩 검증 (한국어)
+
+[검증 Preview 문서 보기](https://github.com/paran0921/local-ai-engineering-portfolio/blob/main/docs/preview-codex-agents-md-verification-ko.md)
+
+- Codex 세션 컨텍스트 메타데이터를 통한 AGENTS.md 자동 로딩 확인
+- 별도 Codex 세션에서 직접 파일 읽기 및 승인된 테스트 실행 확인
+- 검증 범위, 관찰 결과 및 기술적 한계 기록
+- 실제 코드 수정 과정에서의 코딩 에이전트 준수 여부는 미검증
+
 ## 문서 작성 원칙
 
 - 확인된 사실, 관찰 결과, 계획 및 미검증 항목을 구분합니다.
