@@ -76,17 +76,5 @@ This supports preservation of the Git status in those four paths during the reco
 - It does not establish that Codex will comply with every repository instruction in all future sessions.
 - It does not verify instruction compliance while making source-code changes.
 - It does not establish that every file in the repository remained byte-identical.
-- It does not attribute any behavior to a CLI/background-service version difference; no causal effect was established.
+- It does not attribute any behavior to a CLI/background-service version difference; no causal effect was not established.
 
-## Next step
-
-The next useful evaluation is a small, explicitly authorized code-change task with a defined file allowlist, success criteria, test command, and stop conditions. The resulting diff, test output, and before/after worktree state should be reviewed as separate evidence.
-
-## Evidence records
-
-The underlying internal verification records are retained separately from this public-facing preview:
-
-- Codex AGENTS.md automatic-loading verification, 2026-11-16.
-- Codex AGENTS.md loading and workflow-constraint verification supplement, 2026-11-16.
-
-This preview summarizes those records; it does not publish raw session logs or local machine paths.
