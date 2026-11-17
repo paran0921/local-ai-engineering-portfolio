@@ -56,7 +56,7 @@ git status --short -- app tests routes resources
 
 before and after the test. The recorded outputs were the same.
 
-This supports preservation of the Git status in those four paths during the recorded session. It is not a byte-for-byte-comparison of every file in the repository and does not rule out activity by an external process.
+This supports preservation of the Git status in those four paths during the recorded session. It is not a byte-for-byte comparison of every file in the repository and does not rule out activity by an external process.
 
 ## Evidence-based assessment
 
@@ -69,12 +69,24 @@ This supports preservation of the Git status in those four paths during the reco
 | Test result: 7 tests, 21 assertions | Confirmed in the recorded output |
 | Git status unchanged in the four inspected paths | Confirmed in the recorded output |
 | Compliance during actual code modification | Not yet verified |
-| Byte-for-byte-preservation of the entire repository | Not established |
+| Byte-for-byte preservation of the entire repository | Not established |
 
 ## What this preview does not claim
 
 - It does not establish that Codex will comply with every repository instruction in all future sessions.
 - It does not verify instruction compliance while making source-code changes.
 - It does not establish that every file in the repository remained byte-identical.
-- It does not attribute any behavior to a CLI/background-service version difference; no causal effect was not established.
+- It does not attribute any behavior to a CLI/background-service version difference; no causal effect was established.
 
+## Next step
+
+The next useful evaluation is a small, explicitly authorized code-change task with a defined file allowlist, success criteria, test command, and stop conditions. The resulting diff, test output, and before/after worktree state should be reviewed as separate evidence.
+
+## Evidence records
+
+The underlying internal verification records are retained separately from this public-facing preview:
+
+- Codex AGENTS.md automatic-loading verification, 2026-11-16.
+- Codex AGENTS.md loading and workflow-constraint verification supplement, 2026-11-16.
+
+This preview summarizes those records; it does not publish raw session logs or local machine paths.
